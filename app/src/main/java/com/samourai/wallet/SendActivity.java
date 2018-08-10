@@ -2036,7 +2036,7 @@ public class SendActivity extends Activity {
                             double pct = 0.0;
                             int nbBlocks = 6;
                             if(customValue == 0.0)    {
-                                customValue = 1.0;
+                                customValue = 0.0;
                             }
                             if(customValue <= (double)lowFee)    {
                                 pct = ((double)lowFee / customValue);
