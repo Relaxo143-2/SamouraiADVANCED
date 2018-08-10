@@ -295,7 +295,7 @@ public class FeeActivity extends Activity {
 
                         }
 
-                        if(customValue < 0.0 && !strCustomFee.equalsIgnoreCase("noll"))    {
+                        if(customValue < 1.0 && !strCustomFee.equalsIgnoreCase("noll"))    {
                             Toast.makeText(FeeActivity.this, R.string.custom_fee_too_low, Toast.LENGTH_SHORT).show();
                         }
                         else if(customValue > sanityValue)   {
